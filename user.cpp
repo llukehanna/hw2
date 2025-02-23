@@ -27,9 +27,9 @@ double User::getBalance() const
     return balance_;
 }
 
-void User::deductAmount(double amt)
-{
-    balance_ -= amt;
+void User::subtractBalance(double amount) 
+  {
+    balance_ -= amount;
 }
 
 void User::dump(std::ostream& os)

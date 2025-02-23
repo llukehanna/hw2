@@ -15,8 +15,8 @@ public:
 
     double getBalance() const;
     std::string getName() const;
-    void deductAmount(double amt);
-    virtual void dump(std::ostream& os);
+    void dump(std::ostream& os);
+    void subtractBalance(double amount);
 
 private:
     std::string name_;
